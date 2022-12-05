@@ -20,4 +20,4 @@ UI details are added in the /Resources/UI.md file, use the provided colorspace.
 
 # Contact Us
 Contributors can contact us on our discord channel: https://discord.gg/3M9VaQwN  
-or mail at: prathamchoudhary4@gmail.com
+or mail at: aakritikakashi777@gmail.com / prathamchoudhary4@gmail.com
