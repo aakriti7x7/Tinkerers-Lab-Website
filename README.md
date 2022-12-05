@@ -9,8 +9,19 @@ More content about Tinkerer's Lab will be provided with the assigned issues, fee
 
 # Pre-requisites
 * Basic knowledge of HTML, CSS, and JS.
-* Basic knowledge of MERN (MongoDb, ExpressJs, ReactJs, NodeJs) stack will be helpfull.
+* Basic knowledge of any JS framework (preferably ReactJS/NextJS).
 
+# How to contribute
+* Fork the repository.
+* Clone the repository to your local machine.
+* Install the dependencies using
+```bash
+yarn install
+```
+* To start the development server run
+```bash
+yarn dev
+```
 
 # Resources
 Resources are in the [/Resources](/Resources) folder, replace in prefered directory like /.src/resources and use, at the end this /Resources folder will be deleted.   
