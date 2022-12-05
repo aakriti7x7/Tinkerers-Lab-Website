@@ -8,11 +8,13 @@ More content about Tinkerer's Lab will be provided with the assigned issues, fee
 
 
 # Pre-requisites
-* Basic knowledge of HTML,CSS,JS (depends on your assigned issue).
-* Basic knowledge of Next.js will be helpfull.
+* Basic knowledge of HTML, CSS, and JS.
+* Basic knowledge of MERN (MongoDb, ExpressJs, ReactJs, NodeJs) stack will be helpfull.
 
 
 # Resources
-
+Resources are in the /Resources folder, replace in prefered directory like /.src/resources and use, at the end this (/Resources) folder will be deleted.
+Feel free to notify maintainers for resources as and when required.
 
 # Contact Us
+
