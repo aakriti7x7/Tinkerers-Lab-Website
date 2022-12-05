@@ -6,17 +6,19 @@ Tinkerer’s Lab at IIT Patna allows you to build things on your own from scratc
 We will be creating a fully responsive and dynamic website for Tinkerer's Lab from scratch, using HTML, CSS, and JS with some great design. This will include a Landing page, Projects page, Inventory Page, FAQ page, contact page, Admin/Maintainers page, and Booking Portal.  
 More content about Tinkerer's Lab will be provided with the assigned issues, feel free to contribute without worrying about the content.
 
+## Feel free to inspect or run the application on your device. Try to play around with different ideas and make issues if you find one.
 
 # Pre-requisites
 * Basic knowledge of HTML, CSS, and JS.
-* Basic knowledge of MERN (MongoDb, ExpressJs, ReactJs, NodeJs) stack will be helpfull.
-
+* Basic knowledge of Next.js will be helpfull.
 
 # Resources
-Resources are in the /Resources folder, replace in prefered directory like /.src/resources and use, at the end this (/Resources) folder will be deleted.   
-Feel free to notify maintainers for resources as and when required.  
+* Read about [Next.js](https://nextjs.org/docs)  
+* Resources are in the [/Resources](/Resources) folder, copy required content in prefered directory like /web/resources and use, at the end this /Resources folder will be deleted.     
+* UI details are added in the [/Resources/UI.md](/Resources/UI.md) file, use the provided colorspace.
+* some reference links are added in [/Resources/UI.md](/Resources/UI.md) to take inspiration from.  
   
-UI details are added in the /Resources/UI.md file, use the provided colorspace.
+Feel free to notify maintainers for resources as and when required.  
 
 # Contact Us
 Contributors can contact us on our discord channel: https://discord.gg/3M9VaQwN  
