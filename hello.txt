@@ -1,0 +1,17 @@
+gcloud compute instance-groups managed create web-server \
+   --template=web-server --size=2 --zone= 
+
+
+gcloud compute firewall-rules create grant-tcp-rule-169 \
+  --network=default \
+  --action=allow \
+  --direction=ingress \
+  --source-ranges=130.211.0.0/22,35.191.0.0/16 \
+  --target-tags=allow-health-check \
+  --rules=tcp:80
+
+gcloud compute forwarding-rules create http-content-rule \
+    --address=lb-ipv4-1\
+    --global \
+    --target-http-proxy=http-lb-proxy \
+    --ports=80
