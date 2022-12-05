@@ -9,7 +9,7 @@ More content about Tinkerer's Lab will be provided with the assigned issues, fee
 
 # Pre-requisites
 * Basic knowledge of HTML, CSS, and JS.
-* Basic knowledge of MERN (MongoDb, ExpressJs, ReactJs, NodeJs) stack will be helpfull.
+* Basic knowledge of Next.js will be helpfull.
 
 
 # Resources
