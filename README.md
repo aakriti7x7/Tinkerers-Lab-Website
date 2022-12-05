@@ -8,8 +8,8 @@ More content about Tinkerer's Lab will be provided with the assigned issues, fee
 
 
 # Pre-requisites
-1- Basic knowledge of HTML,CSS,JS (depends on your assigned issue).
-2- Basic knowledge of Node.js and React.js will be helpfull.
+* Basic knowledge of HTML,CSS,JS (depends on your assigned issue).
+* Basic knowledge of Node.js and React.js will be helpfull.
 
 
 # Resources
