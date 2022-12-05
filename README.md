@@ -13,10 +13,11 @@ More content about Tinkerer's Lab will be provided with the assigned issues, fee
 
 
 # Resources
-Resources are in the /Resources folder, replace in prefered directory like /.src/resources and use, at the end this (/Resources) folder will be deleted.   
+Resources are in the [/Resources](/Resources) folder, replace in prefered directory like /.src/resources and use, at the end this /Resources folder will be deleted.   
 Feel free to notify maintainers for resources as and when required.  
   
-UI details are added in the /Resources/UI.md file, use the provided colorspace.
+UI details are added in the [/Resources/UI.md](/Resources/UI.md) file, use the provided colorspace.
+some reference links are added in [/Resources/UI.md](/Resources/UI.md) to take inspiration from.
 
 # Contact Us
 Contributors can contact us on our discord channel: https://discord.gg/3M9VaQwN  
