@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial scale = 1.0">
+        <meta charset="utf-8"> 
+        <title>TinkerLab</title>
+        <!--css linking-->
+        <link href="style.css" rel="stylesheet" type="text/css"> 
+        <!--google font linking-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!--favicon-->
+        <link href="/resources/media/tinkeres-lab.png" rel="icon">
+    </head>
+    <body>
+        <div class="header">
+            <div class="u-centered">
+                <img src="/resources/media/558d03d4-694a-4f79-b6bd-38cc4d9c13e1.jpg" class="imgs">
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar__content u-centered">
+                <img src="/resources/media/tinkeres-lab.png" alt="TinkererLab" class="bar__logo">
+                <h1 class="nav__title">Tinkerers Lab</h1>
+                <input type ="checkbox" id="inpNavToggle">
+                <label for="inpNavToggle" class="bar__nav-toggle">
+                    <i class="material-symbols-outlined">menu</i>
+                </label>
+                <nav class="nav">
+                    <a href="#" class="mav__link">Home</a>
+                    <a href="#" class="mav__link">Inventory</a>
+                    <a href="#" class="mav__link">Robocon</a>
+                    <a href="#" class="mav__link">FAQs</a>
+                </nav>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded" , () =>{
+                const observer = new IntersectionObserver(entries =>{
+                    document.querySelector(".bar").classList.toggle("bar--bg" , entries[0].intersectionRatio < 0.95);
+                },{
+                    threshold: 0.95
+                });
+
+                observer.observe(document.querySelector(".header"));
+            });
+        </script>
+    </body>
+    </html>
