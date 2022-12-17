@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+:root{
+    --bar-height: 72px ;
+    --color-primary: #C147E9 ;
+    --color-primary-light: #E5B8F4 ;
+}
+
+body{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    /* background: linear-gradient(to bottom right , var(--color-primary), var(--color-primary-light)); */
+}
+
+.header {
+    height: 100%;
+    background: linear-gradient(to bottom right , var(--color-primary), var(--color-primary-light));
+    display: flex;
+    align-items: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+}
+
+.u-centered{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.imgs{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.bar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--bar-height);
+    box-shadow: 0 0 10px rgba(0,0,0,0.15) ;
+    transition: background 0.15s;
+}
+
+.bar--bg{
+    background-color: var(--color-primary-light) ;
+}
+
+.bar__content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar__logo{
+    height: 60px;
+}
+
+.bar__nav-toggle > i {
+    color: rgb(252, 252, 252);
+    font-size: 2em;
+}
+
+#inpNavToggle:checked ~ .nav {
+    display: flex;
+}
+
+#inpNavToggle{
+    display: none;
+}
+
+.nav{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: var(--bar-height);
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--bar-height));
+    padding: 32px;
+    background: rgb(4, 12, 14);
+    box-sizing: border-box;
+}
+
+.nav__title{
+    size: 2.5rem;
+    margin-left: -50%;
+
+}
+
+.mav__link{
+    padding: 16px 0;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+.mav__link:hover{
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 767px) {
+    .bar__nav-toggle{
+        display: none;
+    }
+
+    .nav{
+        display: initial;
+        position: static;
+        width: unset;
+        height: unset;
+        padding: unset;
+        background: transparent;
+    }
+
+    .mav__link{
+        border-bottom: none;
+    }
+
+    .mav__link:not(:last-of-type){
+        margin-right: 24px;
+    }
+}
